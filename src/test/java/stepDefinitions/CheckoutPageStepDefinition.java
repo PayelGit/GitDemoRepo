@@ -38,6 +38,7 @@ public void  verify_user_has_ability_enter_promo()
 	Assert.assertTrue(checkoutPage.VerifyPromoBtn());
 	Assert.assertTrue(checkoutPage.VerifyPlaceOrder());
 	System.out.println("Assertion is completed");
+	System.out.println("Web Automation");
 }
 
 @Then("^User proceeds to Checkout and validate the (.+) items in checkout page$")
