@@ -61,6 +61,10 @@ public void user_is_on_green_cart_landing_page() {
 		System.out.println("Done......");
 	}
 
-
+	@And("abcdef")
+	public void abcdef()
+	{
+		System.out.println("Done allll......");
+	}
 	
 }
