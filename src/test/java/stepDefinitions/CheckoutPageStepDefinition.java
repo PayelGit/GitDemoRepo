@@ -37,7 +37,7 @@ public void  verify_user_has_ability_enter_promo()
 	
 	Assert.assertTrue(checkoutPage.VerifyPromoBtn());
 	Assert.assertTrue(checkoutPage.VerifyPlaceOrder());
-	
+	System.out.println("Assertion is completed");
 }
 
 @Then("^User proceeds to Checkout and validate the (.+) items in checkout page$")
@@ -46,6 +46,7 @@ public void user_proceeds_to_checkout(String name) throws InterruptedException
 	
 	checkoutPage.CheckoutItems();
 	//Assertion to extract name from screen and compare with name
+	System.out.println("checking out is done");
 }
 
 
