@@ -11,6 +11,7 @@ import org.testng.Assert;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.cucumber.java.en.And;
 import pageObjects.LandingPage;
 import utils.TestContextSetup;
 
@@ -54,6 +55,11 @@ public void user_is_on_green_cart_landing_page() {
 		
 	}
 	
+	@And("abcd")
+	public void abcd()
+	{
+		System.out.println("Done......");
+	}
 
 
 	
